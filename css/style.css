@@ -6,7 +6,7 @@ header{
     height: 80px;
     padding: 10px;
     text-align: center;
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
 }
 header img{
     height: 60px;
@@ -88,7 +88,6 @@ main{
 }
 
 /* change img overlay */
-
 .product-img:hover img:first-of-type{
     display: none;
 }
