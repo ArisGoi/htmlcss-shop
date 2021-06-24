@@ -26,6 +26,9 @@ main{
     margin-bottom: 15px;
 }
 
+.product-img{
+    position: relative;
+}
 .product-img img{
     width: 100%;
 }
@@ -54,3 +57,32 @@ main{
     margin-left: 5px;
 }
 
+/* img Tags and favorite */
+.sales-tag{
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+}
+.sales-tag p{
+    padding: 5px 7px;
+    color: white;
+    display: inline;
+    font-size: 14pt;
+}
+.sales-tag .price{
+    background-color: red;
+    font-weight: bolder;
+}
+.sales-tag .sost{
+    background-color: green;
+    
+}
+
+.favorite{
+    font-size: 25pt;
+    position: absolute;
+    padding: 10px 20px;
+    background-color: white;
+    top: 25px;
+    right: 0;
+}
