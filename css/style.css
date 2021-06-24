@@ -15,7 +15,7 @@ header img{
 /* main */
 main{
     max-width: 80%;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 /* Product-box */
@@ -23,15 +23,34 @@ main{
     width: calc(100% / 3);
     display: inline-block;
     padding: 0px 5px;
+    margin-bottom: 15px;
 }
 
-.product-img{
-    overflow: hidden;
-}
 .product-img img{
     width: 100%;
 }
 
 /* Product labels - Texts */
+.product-labels{
+    margin-top: 3px;
+}
+.product-labels h4{
+    font-size: 13pt;
+    font-weight: lighter;
+}
 
+.product-labels h2{
+    text-transform: uppercase;
+}
+
+.product-labels > p:first-of-type{
+    color: red;
+    display: inline;
+    font-weight: bolder;
+}
+.product-labels > p:last-of-type{
+    display: inline;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
 
