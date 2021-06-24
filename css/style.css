@@ -86,3 +86,14 @@ main{
     top: 25px;
     right: 0;
 }
+
+/* change img overlay */
+
+.product-img:hover img:first-of-type{
+    display: none;
+}
+.product-img:hover img:last-of-type{
+    display: inline-block;
+}
+.product-img img:last-of-type{
+    display: none;
