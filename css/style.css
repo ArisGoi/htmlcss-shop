@@ -1,5 +1,6 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
 
+/* Header con logo */
 header{
     width: 100%;
     height: 80px;
@@ -9,4 +10,27 @@ header{
 }
 header img{
     height: 60px;
+}
+
+/* main */
+main{
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: pink;
+}
+
+/* Product-box */
+.product-box{
+    width: calc(100% / 3 - 5px);
+    height: 700px;
+    display: inline-block;
+    background-color: blue;
+    margin: 0px 5px;
+}
+
+.product-img{
+    overflow: hidden;
+}
+.product-img img{
+    width: 100%;
 }
